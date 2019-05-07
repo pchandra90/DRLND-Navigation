@@ -34,7 +34,7 @@ The task is episodic, and in order to solve the environment, your agent must get
 
     (_For AWS_) If you'd like to train the agent on AWS (and have not [enabled a virtual screen](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Training-on-Amazon-Web-Service.md)), then please use [this link](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Linux_NoVis.zip) to obtain the environment.
 
-### Dependencies
+#### Dependencies
 
 To set up your python environment to run the code in this repository, follow the instructions below.
 
@@ -56,6 +56,13 @@ To set up your python environment to run the code in this repository, follow the
 	- Then, install the **box2d** environment group by following the instructions [here](https://github.com/openai/gym#box2d).
 	
 3. Install dependency from requirements.txt
+   ```bash
+   pip install requirements.txt
+   ```
+
+### Instructions
+
+To train learning agent and get details implementation, run "Navigation_Report.ipynb". Activate created env. Use following command:
 ```bash
-pip install requirements.txt
+jupyter notebook Navigation_Report.ipynb
 ```
